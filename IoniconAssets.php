@@ -6,12 +6,12 @@ use yii\web\AssetBundle;
  * @author Nguyen Tuan Sieu <tuan@sieulog.com>
  * @since 1.0
  */
-class FontAwesomeAssets extends AssetBundle
+class IoniconAssets extends AssetBundle
 {
-    public $sourcePath = '@bower/fontawesome';
+    public $sourcePath = '@bower/ionicons';
     public $js = [];
     public $css = [
-        'css/font-awesome.css',
+        'css/ionicons.min.css',
     ];
     public $depends = [];
 }
